@@ -1,0 +1,211 @@
+/* 
+NRP : 2172021
+Nama : Tabitha Emmanuella Kotambunan
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.bg {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+.logo {
+  width: 90px;
+}
+.satu {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: thistle;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+}
+
+nav ul li a:hover {
+  color: cadetblue;
+}
+
+.tengah {
+  margin-left: 12%;
+  margin-top: 16%;
+}
+
+.tengah h1 {
+  font-size: 55px;
+  color: #212121;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+#lastname {
+  color: cadetblue;
+  font-family: cursive;
+  font-size: 55px;
+}
+.tengah h1 {
+  color: #fff;
+}
+.tengah p {
+  color: bisque;
+  line-height: 25px;
+}
+.tengah h4 {
+  color: beige;
+  line-height: 20px;
+}
+
+.imagesP1 {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.imagesP1 img {
+  height: 75%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+  border-radius: 30%;
+}
+
+.imagesP1:hover .tabitha {
+  bottom: 40px;
+}
+
+.imagesP1:hover .tabitha1 {
+  left: 45%;
+}
+.hireme {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  color: whitesmoke;
+  background-color: teal;
+  font-family: serif;
+}
+.hireme:hover {
+  background-color: thistle;
+  cursor: pointer;
+}
+.tengah1 {
+  margin-left: 12%;
+  margin-top: 15%;
+  padding: 30px;
+}
+.tengah1 h4 {
+  position: relative;
+  right: 0px;
+  font-size: 27px;
+  padding-top: 20px;
+  color: mistyrose;
+  font-family: monospace;
+}
+#contact {
+  color: cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactme {
+  margin-top: 20px;
+  margin-left: 1.5%;
+}
+.contactme a {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+}
+#email {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#email:hover {
+  color: rosybrown;
+  cursor: pointer;
+}
+.contactme a:hover {
+  color: rosybrown;
+}
+.experience {
+  margin-left: 12%;
+  margin-top: 15%;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.experience h4 {
+  position: relative;
+  right: 10px;
+  font-size: 30px;
+  padding-top: 20px;
+  color: powderblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.exp {
+  font-size: 45px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(170, 144, 95);
+}
+.tengah2 {
+  margin-left: 12%;
+  margin-top: 15%;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.tengah2 h4 {
+  position: relative;
+  right: 40px;
+  font-size: 30px;
+  padding-top: 20px;
+  color: ivory;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.judulbesar {
+  color: thistle;
+  font-size: 40px;
+  font-family: unset;
+}
+.img3 {
+  width: 300px;
+  height: 370px;
+}
+table tr td {
+  padding-right: 20px;
+  width: 500px;
+}
